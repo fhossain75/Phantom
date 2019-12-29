@@ -1,0 +1,161 @@
+<html>  
+    <head>
+        <!--icon-->
+        <!-- <link rel="icon" href="https://www.shareicon.net/data/128x128/2016/04/04/744742_spooky_512x512.png"> -->
+
+        <title>Phantom - Transactions</title>
+<!--   F O N T   -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+<!-- favicons
+================================================== -->
+<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+
+        <!-- Custom styles for this template -->
+        <link href="./transaction/style.css" rel="stylesheet">
+
+        <!--bootstrap-->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--jquery-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css"></script>
+
+        <!--round buttons from w3schools-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">  -->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      
+        <!-- CSS  -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="transaction/cssMenu/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="transaction/cssMenu/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      
+    </head>
+    <body>
+            <nav class="light-blue lighten-1" role="navigation">
+                    
+                    
+                                    <ul id="nav-mobile" class="side-nav">
+                                            <li><a href="profile.html">Profile</a></li>
+                                            <li><a href="dashboard.html">Dashboard</a></li>
+                                            <!-- <li><a href="transaction.html">Transaction</a></li> -->
+                                            <li><a href="moneyTransfer.html">Money Transfer</a></li>
+                                            <li><a href="calendar.html">Calendar</a></li>
+                                            <li><a href="#">Settings</a></li>
+                                    </ul>
+                                    
+                                    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+                    
+                                </nav>
+
+        <header>
+            <h1 class="animated fadeInRight"> Transaction Log </h1>
+        <div id="showBox">
+                <h2> Monthly report </h2> 
+                <h2> ------ Aug ------ </h2>
+                <h1 class="total"> $732.93 </h1>  
+                <p> Avaliable: $770.03  <button class="w3-button w3-xlarge w3-circle w3-teal">+</button> Pending: $55.25 </p>
+            <div class="colorLabel" id="label">
+                <span class="label label-default">Checkings</span>
+                <span class="label label-primary">Savings</span>
+                <span class="label label-success">Credit</span>
+            </div>
+        </div>
+        </header>
+
+        <div  class="colorCode">
+            <div class="first">
+            <p id="expensetitle"> Expense</p> <br/>
+            <p id="actname">Checkings</p>
+            <p id="storename">Chase</p>
+            <p id="moneyamount">+ $150.00</p>
+            </div>
+
+            <div class="check">
+            <p id="BankOfAmerica"> Uber <br/>
+                Bank Of America --- $34.84 </p>
+            </div>
+
+            <div class="check">
+            <p id="TDBank"> Starbucks <br/>
+                TDBank --- $15.32 </p>
+            </div>
+
+            <div class="check">
+            <p id="Chase"> Staples <br/>
+                Chase --- #100.83 </p>
+            </div>
+
+            <div class="check">
+            <p id="citi"> Forever 21 <br/>
+                Citi Bank --- $34.82 </p>   
+            </div>
+
+            <div class="check">
+            <p id="BankOfAmerica"> H&M <br/>
+                Bank Of America --- $82.25 </p>
+            </div>
+
+            <div class="check">
+            <p id="TDBank"> Kung Fu Tea <br/>
+                TDBank --- $21.47 </p>
+            </div>
+
+            <div class="check">
+            <p id="Chase"> Foodtown <br/>
+                Chase --- $3.82 </p>
+            </div>
+
+            <div class="check">
+            <p id="citi"> Forever 21 <br/>
+                Citi Bank --- $81.43 </p>   
+            </div>
+
+            <div class="check">
+            <p id="BankOfAmerica"> H&M <br/>
+                Bank Of America --- $91.02 </p>
+            </div>
+
+            <div class="check">
+            <p id="TDBank"> McDonald's <br/>
+                TDBank --- $27.32 </p>
+            </div>
+
+            <div class="check">
+            <p id="Chase"> Burger King <br/>
+                Chase --- $35.26 </p>
+            </div>
+
+            <div class="check">
+            <p id="citi"> Uber <br/>
+                Citi Bank --- $72.00 </p>   
+            </div>
+
+            <div class="check">
+            <p id="BankOfAmerica"> Planet Fitness (PF) <br/>
+                Bank Of America --- $20.29 </p>
+            </div>
+
+            <div class="check" id="last">
+            <p id="citi"> Soft Swerve <br/>
+                Citi Bank --- $5.89 </p>
+            </div>
+
+        </div>
+
+        <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="transaction/jsMenu/materialize.js"></script>
+  <script src="transaction/jsMenu/init.js"></script>
+
+
+    </body>
+</html>
